@@ -254,7 +254,7 @@ header
 .header-area .main-nav .logo {
   line-height: 80px;
   color: #fff;
-  font-size: 32px;
+  font-size: 22px;
   font-weight: 800;
   text-transform: uppercase;
   float: left;
@@ -284,8 +284,9 @@ header
 }
 
 .header-area .main-nav .nav li {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 10px;
 }
 
 .header-area .main-nav .nav li a {
@@ -694,6 +695,48 @@ features
 }
 
 .feature-item .right-content a.text-button {
+  margin-top: 7px;
+  display: inline-block;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #ed563b;
+  font-weight: 500;
+}
+/*
+---------------------------------------------
+kontak
+---------------------------------------------
+*/
+
+#kontak {
+  margin-bottom: 80px;
+}
+
+.kontaks-item {
+  display: inline-block;
+  margin-bottom: 60px;
+}
+
+.kontaks-item .left-icon img {
+  float: left;
+  margin-right: 30px;
+}
+
+.kontaks-item .right-content {
+  display: inline;
+}
+
+.kontaks-item .right-content h4 {
+  margin-top: 0px;
+  margin-bottom:  7px;
+  letter-spacing: 0.25px;
+  color: #232d39;
+  font-size: 19px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.kontaks-item .right-content a.text-button {
   margin-top: 7px;
   display: inline-block;
   font-size: 13px;
@@ -1466,6 +1509,12 @@ responsive
   #features .feature-item {
     margin-bottom: 30px;
   }
+  #kontak {
+    margin-bottom: 110px;
+  }
+  #kontak .feature-item {
+    margin-bottom: 30px;
+  }
   #our-classes .tabs-content {
     margin-left: 0px;
     margin-top: 30px;
@@ -1491,6 +1540,11 @@ responsive
 
 @media (max-width: 450px) {
   .feature-item .right-content a.text-button {
+    margin-left: 130px;
+  }
+}
+@media (max-width: 450px) {
+  .kontaks-item .right-content a.text-button {
     margin-left: 130px;
   }
 }
